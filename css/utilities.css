@@ -1,0 +1,7 @@
+.invertColors {
+  filter: invert(100%);
+}
+
+.hidden {
+  display: none;
+}
