@@ -2,6 +2,9 @@ function runTrinity() {
   //   console.log(document.getElementById("rootFile").files[0]);
   readText(document.getElementById("rootFile")).then(function(data) {
     console.log(data);
+    var compiledProject = trinity(data);
+    // var newWindow = window.open();
+    // newWindow.document.write(compiledProject);
   });
 }
 var reader = new FileReader();
